@@ -1,6 +1,6 @@
 using Pkg
-ENV["PYTHON"] = ""
 Pkg.clone("https://github.com/JuliaPy/PyCall.jl")
+ENV["PYTHON"] = ""
 Pkg.build("PyCall")
 Pkg.clone("https://github.com/wildart/TOML.jl")
 Pkg.clone("https://github.com/alan-turing-institute/MLJBase.jl")
