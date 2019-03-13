@@ -8,14 +8,12 @@ PyCall.jl  and related pathing dependencies are handled by the Docker image. It 
 
 To run the docker image you can simply call
 ```sh
-docker run -ti ysimillides/mlj-docker 
+docker run -p 8888:8888 ysimillides/mlj-docker 
 ```
-and once inside, 'julia' can be accessed by calling
-```sh
-julia
-```
-on the command line
+and this will open a port on your localhost:8888 from where you can access the container/notebook.
+ames.ipynb has been provided as an example.
+
 
 ## Help with Docker
 
-http://fenics.readthedocs.io/projects/containers/en/latest/ is a good starting point, or the official Docker tutorials.
+https://jupyter-docker-stacks.readthedocs.io/en/latest/using/running.html or the official Docker tutorials
