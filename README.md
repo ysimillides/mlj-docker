@@ -17,3 +17,5 @@ ames.ipynb has been provided as an example.
 ## Help with Docker
 
 https://jupyter-docker-stacks.readthedocs.io/en/latest/using/running.html or the official Docker tutorials
+
+Alternatively, one can read through [MLJDocker Help](https://github.com/ysimillides/mlj-docker/blob/master/MLJDocker.pdf) for a quick start.
