@@ -10,10 +10,19 @@ To run the docker image you can simply call
 ```sh
 docker run -p 8888:8888 ysimillides/mlj-docker 
 ```
+
 and this will open a port on your localhost:8888 from where you can access the container/notebook.
 ames.ipynb has been provided as an example.
 
+Alternatively, if you wish to develop MLJ inside the docker, you can call 
 
+```sh
+docker run -ti ysimillides/mlj-docker:develop 
+```
+and once inside, 'julia' can be accessed by calling
+```sh
+julia
+```
 ## Help with Docker
 
 https://jupyter-docker-stacks.readthedocs.io/en/latest/using/running.html or the official Docker tutorials
