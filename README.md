@@ -1,6 +1,6 @@
 # Docker
 This docker image it to allow testing and usage of MLJ in Julia.
-After installing and accessing Julia in the Docker image, MLJ can simply be used by calling Using MLJ or similar.
+After installing and accessing Julia in the Docker image, MLJ can simply be used by calling using MLJ or similar.
 PyCall.jl  and related pathing dependencies are handled by the Docker image. It currently installs v1.1.0 of Julia.
 
 
